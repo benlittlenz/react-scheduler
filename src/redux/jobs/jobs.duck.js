@@ -21,7 +21,7 @@ export default (state = initState, action) => {
   const { type, payload } = action;
 
   const reducer = {
-    [GET_ALL_ACTIVE_JOBS]: (state, payload) => ({
+    [GET_ALL_ACTIVE_JOBS_SUCCESS]: (state, payload) => ({
       ...state,
       data: payload,
       isLoading: false,

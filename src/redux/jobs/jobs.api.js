@@ -1,6 +1,6 @@
 import { _get, buildURL } from '../../utils';
 
-export const getAllActiveEngineer = () => {
+export const getAllActiveJobs = () => {
   let req = {
     url: buildURL(7),
     data: {
